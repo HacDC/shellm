@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "shellm"
-version = "0.4.0"
+version = "0.4.1"
 description = ""
 authors = ["Gabriel Altay <gabriel.altay@gmail.com>"]
 readme = "README.md"
@@ -9,7 +9,7 @@ readme = "README.md"
 shellm = "shellm.main:app"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.9"
 typer = {extras = ["all"], version = "^0.9.0"}
 openai = "^0.28.0"
 pydantic = "^2.3.0"
